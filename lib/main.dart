@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:module_10_assignment/splash_screen.dart';
+import 'cart_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const SplashScreen(),
+      home: CartScreen(),
     );
   }
 }
